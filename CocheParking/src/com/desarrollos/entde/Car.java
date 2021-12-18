@@ -75,7 +75,7 @@ public class Car
      */    
     public void moveDown() throws InterruptedException{
     	String c = new String("\t\t\t\t  *");
-    	for(int i=0, i<5, i++)
+    	for(int i=0; i<5; i++)
         {
     		if(i!=4)
     			System.out.println(c);
